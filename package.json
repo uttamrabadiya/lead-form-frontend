@@ -1,0 +1,24 @@
+{
+  "name": "flowbite-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.10",
+    "axios": "^1.10.0",
+    "flowbite": "^3.1.2",
+    "tailwindcss": "^4.1.10",
+    "vee-validate": "^4.15.1",
+    "vue": "^3.5.13",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "vite": "^6.3.5"
+  }
+}
