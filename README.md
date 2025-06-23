@@ -1,5 +1,57 @@
-# Vue 3 + Vite
+# Multi-Step Lead Form (Frontend)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is the frontend application for the Lead Form project, built with **Vue 3**, **Tailwind CSS**, and **Vite**. It collects user details through a step-by-step form and submits the data to the backend API.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+---
+
+## 🚀 Tech Stack
+
+- [Vue 3](https://vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Axios](https://axios-http.com/)
+- [Yup + VeeValidate](https://vee-validate.logaretm.com/v4/) for validation
+- Optional: [Flowbite](https://flowbite.com/) UI utility classes
+
+---
+
+## 🔧 Project Setup
+
+### 1. Install Dependencies
+
+```bash
+cd frontend
+npm install
+```
+
+### 2. Environment Configuration
+
+```bash
+VITE_API_URL=https://your-backend-domain.com/api
+```
+
+### 3. Run the Development Server
+
+```bash
+npm run dev
+```
+Open your browser at: http://localhost:5173
+
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+## 📤 Deploy
+
+The `dist/` folder can be deployed to any static hosting service (e.g. Netlify, Vercel, S3).
+
+## 📫 API Endpoint
+
+All form submissions are sent to the backend via:
+
+```bash
+POST ${VITE_API_URL}/lead
+```
